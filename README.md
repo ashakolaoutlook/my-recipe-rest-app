@@ -17,7 +17,7 @@ This is a standalone RESTful API application for managing recipes. It provides e
 
 To get started with the Recipe REST API, follow these steps:
 
-1. Clone the repository or download the source code.
+1. Clone the repository or download the source code(https://github.com/ashakolaoutlook/my-recipe-rest-app.git).
 2. Make sure you have Java and Maven (or your preferred build tool) installed on your machine.
 3. Open the project in your preferred IDE.
 4. Build the project to download the required dependencies.
