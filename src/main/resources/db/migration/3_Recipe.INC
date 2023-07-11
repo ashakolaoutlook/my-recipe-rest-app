@@ -1,0 +1,16 @@
+INSERT INTO Recipe (title, description, instructions, preparation_time, cooking_time, servings, difficulty_level, vegetarian)
+VALUES ('Pasta Carbonara', 'Classic Italian pasta dish with bacon and eggs', '1. Cook spaghetti according to package instructions. 2. In a pan, cook bacon until crispy. 3. In a bowl, whisk eggs, grated cheese, salt, and pepper. 4. Drain cooked pasta and immediately toss it in the egg mixture. 5. Add cooked bacon and mix well. 6. Serve hot.', 10, 15, 4, 'Moderate', 0);
+
+INSERT INTO Recipe (title, description, instructions, preparation_time, cooking_time, servings, difficulty_level, vegetarian)
+VALUES ('Caprese Salad', 'Fresh and simple salad with tomatoes, mozzarella, and basil', '1. Slice tomatoes and mozzarella into rounds. 2. Arrange them on a plate, alternating between tomato and mozzarella slices. 3. Drizzle with olive oil and balsamic vinegar. 4. Season with salt and pepper. 5. Garnish with fresh basil leaves. 6. Serve chilled.', 10, 0, 2, 'Easy', 1);
+
+INSERT INTO Recipe (title, description, instructions, preparation_time, cooking_time, servings, difficulty_level, vegetarian)
+VALUES ('Chicken Parmesan', 'Breaded chicken breast topped with tomato sauce and cheese', '1. Preheat the oven to 375°F. 2. Season chicken breasts with salt and pepper. 3. Dip each chicken breast into beaten eggs, then coat with breadcrumbs. 4. Heat oil in a skillet and cook breaded chicken until golden brown. 5. Place cooked chicken in a baking dish and top with tomato sauce and shredded cheese. 6. Bake for 20 minutes or until cheese is melted and bubbly. 7. Serve with pasta or salad.', 20, 30, 2, 'Moderate', 0);
+
+INSERT INTO Recipe (title, description, instructions, preparation_time, cooking_time, servings, difficulty_level, vegetarian)
+VALUES ('Mushroom Risotto', 'Creamy and flavorful rice dish with mushrooms', '1. In a saucepan, heat butter and olive oil. 2. Add chopped onions and sauté until translucent. 3. Add mushrooms and cook until tender. 4. Add Arborio rice and stir well to coat with oil. 5. Gradually add hot vegetable broth, stirring constantly until the liquid is absorbed. 6. Continue adding broth and stirring until rice is cooked al dente. 7. Stir in grated Parmesan cheese and season with salt and pepper. 8. Serve hot.', 15, 40, 4, 'Difficult', 1);
+
+INSERT INTO Recipe (title, description, instructions, preparation_time, cooking_time, servings, difficulty_level, vegetarian)
+VALUES ('Chocolate Cake', 'Decadent and moist chocolate cake with chocolate frosting', '1. Preheat the oven to 350°F. 2. In a mixing bowl, cream together butter and sugar. 3. Beat in eggs, one at a time, followed by vanilla extract. 4. In a separate bowl, whisk together flour, cocoa powder, baking soda, and salt. 5. Gradually add dry ingredients to the wet mixture, alternating with buttermilk. 6. Pour batter into greased cake pans and bake for 30-35 minutes. 7. Allow cakes to cool completely before frosting. 8. Frost the cakes with chocolate frosting. 9. Serve and enjoy!', 20, 35, 8, 'Moderate', 1);
+
+COMMIT;

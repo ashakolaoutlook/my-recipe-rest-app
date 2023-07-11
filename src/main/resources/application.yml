@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    username: root
+    password: MySql@123
+    url: jdbc:mysql://localhost:3306/mysql
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 9a2f688588f8dfbb3df7
+            clientSecret: b74901d12551427c201c4e95ecf91388260af6df
+logging:
+  level:
+    org.springframework.security: TRACE
